@@ -1,5 +1,81 @@
-template-repository (1.0-1) unstable; urgency=medium
+libclass-errorhandler-perl (0.04-3) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Damyan Ivanov ]
+  * declare conformance with Policy 4.1.3 (no changes needed)
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Strip unusual field spacing from debian/control.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Set Testsuite header for perl package.
+  * Bump debhelper from old 12 to 13.
+
+  [ gregor herrmann ]
+  * Update debian/upstream/metadata.
+  * Declare compliance with Debian Policy 4.6.2.
+  * Set Rules-Requires-Root: no.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 22 Jan 2023 23:28:35 +0100
+
+libclass-errorhandler-perl (0.04-2) unstable; urgency=medium
+
+  * Update Vcs-* headers
+
+ -- Dominic Hargreaves <dom@earth.li>  Sat, 05 Aug 2017 23:46:04 -0400
+
+libclass-errorhandler-perl (0.04-1) unstable; urgency=medium
+
+  * New upstream release
+  * Set maintainership to Debian Perl Group
+  * debian/watch: use metacpan-based URL.
+  * Update debhelper compat to 9
+  * Remove obsolete perl versioned dependency
+  * Update Standards-Version (no changes)
+
+ -- Dominic Hargreaves <dom@earth.li>  Sat, 05 Aug 2017 23:37:51 -0400
+
+libclass-errorhandler-perl (0.03-1) unstable; urgency=medium
+
+  * New upstream release
+  * Use machine-readable debian/copyright
+  * Update Standards-Version (no changes)
+
+ -- Dominic Hargreaves <dom@earth.li>  Sun, 02 Feb 2014 16:39:41 +0000
+
+libclass-errorhandler-perl (0.02-1) unstable; urgency=low
+
+  * Add Vcs-* URLs
+  * Switch to dpkg-source 3.0 (quilt) format
+  * Switch to minimal dh rules file
+  * Add Homepage field
+  * New upstream release
+    - Fixes FTBFS with perl 5.18 (Closes: #709764)
+  * Update Standards-Version (no changes)
+
+ -- Dominic Hargreaves <dom@earth.li>  Sun, 09 Jun 2013 11:17:21 +0100
+
+libclass-errorhandler-perl (0.01-2) unstable; urgency=low
+
+  * Put libmodule-build-perl in Build-Depends-Indep section as per lintian
+    warning.
+  * Update Standards-Version (no changes)
+
+ -- Dominic Hargreaves <dom@earth.li>  Wed, 20 Jul 2005 16:52:27 +0000
+
+libclass-errorhandler-perl (0.01-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Dominic Hargreaves <dom@earth.li>  Sun, 10 Jul 2005 23:52:24 +0100
